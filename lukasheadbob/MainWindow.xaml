@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <StackPanel>
+            <TextBlock Name="Tetris" Text="hi"/>
+            <MediaElement Name="MEPlayer" Source="D:\ProgrammingStuff\C#Projects\lukasheadbob\lukasheadbob\CAT.mp4" Stretch="None" MediaEnded="MEPlayer_MediaEnded" UnloadedBehavior="Manual"/>
+        </StackPanel>
     </Grid>
 </Window>
